@@ -1,0 +1,48 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.food-input{
+    background: #ffffffff;
+    box-shadow: -2px 1px 20px 0px #ccc;
+    padding: 31px;
+    position: relative;
+    margin-right: 49px;
+    min-width: 22rem;
+    /* text-align: center; */
+    
+}
+
+.food-cart{
+    background: #ffffffff;
+    box-shadow: -2px 1px 20px 0px #ccc;
+    padding: 31px;
+    position: relative;
+    margin-left: 49px;
+    min-width: 22rem;
+    /* text-align: center; */
+}
+button{
+    background-color: #70051e; 
+    border: 1px solid #70051e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+input{
+    line-height: 1.7;
+    border: 2px solid #70051e;
+    color: #161616;
+}
+#clickRemove{
+    margin-left:30px;
+}
+#error_message{
+    color:#fff;
+    background-color: #c71841;
+}
+h2{
+    color:#70051e;
+}
